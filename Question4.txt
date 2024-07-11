@@ -1,0 +1,28 @@
+4.List the four product which are greater than 500 in price
+
+db.products.find({ product_price: { $gt: 500 }}).limit(4);
+{
+  _id: ObjectId('6690134ae77cac25e8fc92e6'),
+  id: '1',
+  product_name: 'Intelligent Fresh Chips',
+  product_price: 655,
+  product_material: 'Concrete',
+  product_color: 'mint green'
+}
+{
+  _id: ObjectId('6690134ae77cac25e8fc92e7'),
+  id: '2',
+  product_name: 'Practical Fresh Sausages',
+  product_price: 911,
+  product_material: 'Cotton',
+  product_color: 'indigo'
+}
+{
+  _id: ObjectId('6690134ae77cac25e8fc92e8'),
+  id: '3',
+  product_name: 'Refined Steel Car',
+  product_price: 690,
+  product_material: 'Rubber',
+  product_color: 'gold'
+}
+

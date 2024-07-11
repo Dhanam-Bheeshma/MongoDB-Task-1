@@ -1,0 +1,10 @@
+10.Delete the products which product price value are 28
+
+db.products.deleteMany({“product_price”:28.00});
+{
+  acknowledged: true,
+  deletedCount: 1,
+ }
+db.products.countDocuments();
+24
+Products

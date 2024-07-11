@@ -1,0 +1,85 @@
+7.Find only the product name and product material
+
+db.products.find({},{ _id:0,product_price:1,product_material:1});
+{
+  product_price: 655,
+  product_material: 'Concrete'
+}
+{
+  product_price: 911,
+  product_material: 'Cotton'
+}
+{
+  product_price: 690,
+  product_material: 'Rubber'
+}
+{
+  product_price: 492,
+  product_material: 'Soft'
+}
+{
+  product_price: 33,
+  product_material: 'Fresh'
+}
+{
+  product_price: 474,
+  product_material: 'Plastic'
+}
+{
+  product_price: 500,
+  product_material: 'Rubber'
+}
+{
+  product_price: 78,
+  product_material: 'Rubber'
+}
+{
+  product_price: 28,
+  product_material: 'Soft'
+}
+{
+  product_price: 84,
+  product_material: 'Frozen'
+}
+{
+  product_price: 26,
+  product_material: 'Soft'
+}
+{
+  product_price: 89,
+  product_material: 'Wooden'
+}
+{
+  product_price: 37,
+  product_material: 'Concrete'
+}
+{
+  product_price: 54,
+  product_material: 'Metal'
+}
+{
+  product_price: 43,
+  product_material: 'Rubber'
+}
+{
+  product_price: 47,
+  product_material: 'Cotton'
+}
+{
+  product_price: 36,
+  product_material: 'Fresh'
+}
+{
+  product_price: 88,
+  product_material: 'Steel'
+}
+{
+  product_price: 46,
+  product_material: 'Soft'
+}
+{
+  product_price: 36,
+  product_material: 'Concrete'
+}
+
+
